@@ -27,6 +27,7 @@ const updateProject = function(callback) {
 };
 
 http.createServer(function (req, res) {
+    "use strict";
     res.writeHead(200, {"Content-Type": "text/plain"});
     console.log("An event has been detected on the listened port: starting execution...")
 
