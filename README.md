@@ -3,10 +3,9 @@
 (1) Install
 
 ```
-npm install git-auto-pull
+git clone https://github.com/parsegon/git-auto-pull.git
+cd git-auto-pull
+npm install async
+node git-auto-pull.js ../apifiles
 ```
 
-(2) CD to directory
-```
-node git-auto-pull.js relative/Path/To/Your/Project 
-```
